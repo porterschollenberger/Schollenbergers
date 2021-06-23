@@ -1,0 +1,40 @@
+.footer-wrapper {
+    background-color: #2b2b2b;
+    color: #feb062;
+    padding: 60px 100px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 325px;
+    margin-top: -4px;
+}
+.footer-wrapper > .footer-image {
+    display: flex;
+    justify-content: center;
+}
+.footer-image img {
+    width: 200px;
+    height: 200px;
+    margin-top: -25px;
+}
+.social-media-icons-wrapper i{
+    font-size: 1.5em;
+    color: #feb062;
+    transition: 0.5s;
+    padding: 40px;
+}
+.social-media-icons-wrapper i:hover{
+    color: white;
+    
+}
+.footer-wrapper > .contact-hours-wrapper  {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+}
+.copyright-wrapper {
+    color: #575151;
+    font-size: 0.7em;
+}

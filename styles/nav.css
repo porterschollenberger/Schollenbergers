@@ -1,0 +1,86 @@
+.links-wrapper > .nav-link a {
+    color: #feb062;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.links-wrapper > .nav-link a:hover {
+    color: white;
+    letter-spacing: 2px;
+}
+.links-wrapper > .nav-link {
+    width: 70px;
+    text-align: center;
+}
+.navigation-wrapper {
+    height: 300px;
+    background-color: #2b2b2b;
+    color: #feb062;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+    font-family: 'Roboto', sans-serif;
+}
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 500px;
+}
+.navigation-wrapper > .center-column > .banner-image {
+    display: flex;
+    justify-content:  center;
+}
+.right-column {
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+.left-column {
+    display: flex;
+    align-items: center;
+}
+i {
+    font-size: 2em;
+}
+.phone-icon i{
+    margin-right: 15px;
+    transition: 0.3s;
+}
+.phone-icon i:hover {
+    color: white;
+    cursor: pointer;
+}
+.navigation-wrapper >  .left-column > .contact-hours-wrapper > .phone-number {
+    font-family: 'Roboto Mono', monospace;
+}
+.map-icon i{
+    margin-left: 15px;
+    transition: 0.3s;
+}
+.map-icon i:hover {
+    color: white;
+    cursor: pointer;
+}
+.address {
+    font-family: 'Roboto Mono', monospace;
+}
+.left-column > .contact-hours-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3px;
+}
+.right-column > .address-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3px;
+}
+.banner-image img{
+    height: 350px;
+    width: 350px;
+}
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

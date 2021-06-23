@@ -1,0 +1,24 @@
+.contact-grid-wrapper {
+    display: grid;
+    width: 1000px;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 100px;
+}
+.company-metadata-sidebar-wrapper > .logo img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.company-metadata-sidebar-wrapper > .company-details-wrapper {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 1.25em;
+}
+.company-metadata-sidebar-wrapper > .company-details-wrapper i {
+    color: #feb062;
+}
